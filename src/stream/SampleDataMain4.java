@@ -35,7 +35,7 @@ public class SampleDataMain4 {
                 .map(SampleData::getName)
                 .collect(Collectors.joining());
 
-        System.out.println(name);
+        System.out.println(names);
 
     }
 }
